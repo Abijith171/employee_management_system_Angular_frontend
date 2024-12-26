@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand  -md">     
+        <img class="navbar-logo " src="/images/EMS_Logo-removebg-preview.png"  class="rounded-circle"  height="150" width="150" alt="Logo" />
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/dashboard"><b>Home</b></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/employees"><b>employees</b><span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/projects"><b>projects</b></a>
+        </li>
+       
+      </ul>
+
+      
+<!-- <div > -->
+    <button class="btn btn-success" (click)="logOff()">LogOff</button>
+<!-- </div> -->
+
+    <!-- </div> -->
+  
+  </nav>
+ 
+
+ <router-outlet></router-outlet>

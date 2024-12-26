@@ -1,0 +1,64 @@
+.logo 
+{
+  height: 100px;
+  width: auto;
+   padding: 10px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.navbar-logo{
+  /* margin-bottom: 100px; */
+ background-color: blueviolet;
+  
+}
+.btn{
+  box-shadow: 1px 1px 2px rgb(0, 0, 0); 
+  width: 150px; /* Adjust width */
+  height: 60px; /* Adjust height */
+  padding: 15px 30px; /* Add padding for better appearance */
+  font-size: 18px; /* Adjust font size */
+  background-color: #256fe8; /* Button color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Optional: rounded corners */
+  cursor: pointer; /* Pointer cursor for buttons */
+  text-align: center;
+  margin-right:50px ;
+}
+
+.nav-link
+{
+  padding: 100px; 
+  font-size: larger;
+}
+.navbar-nav
+ {
+height: 100px; 
+margin: 5px;
+padding-bottom: 150px;
+} 
+
+
+
+.log_button
+{
+  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-right: 50px;
+  margin-bottom: 200px;
+  background-color: antiquewhite;
+  box-sizing:100px;
+}
+
+.collapse navbar-collapse
+{
+  height: 100px;
+  padding: 100px;
+  flex: auto;
+}
+
+.navbar{
+  background-color: rgb(227, 247, 255);
+}

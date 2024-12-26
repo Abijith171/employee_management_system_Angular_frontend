@@ -1,0 +1,26 @@
+.bg-project
+{
+    background-image: url("/images/ProjectListBG.webp");
+    padding: 50px;
+    /* height: 700px; */
+}
+.text-center
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(0, 37, 93);
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(255, 204, 0, 0.5);
+}
+.btn-add{
+    box-shadow: 1px 1px 2px rgb(235, 19, 19); 
+    width: 200px; /* Adjust width */
+    height: 60px; /* Adjust height */
+    padding: 15px 30px; /* Add padding for better appearance */
+    font-size: 18px; /* Adjust font size */
+    background-color: #198754; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Optional: rounded corners */
+    cursor: pointer; /* Pointer cursor for buttons */
+    text-align: center;
+}

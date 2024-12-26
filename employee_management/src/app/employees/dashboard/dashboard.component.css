@@ -1,0 +1,214 @@
+	
+.introduction-card {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  background-image: url("/images/dashboardBG.webp");
+  background-position: 100%;
+  background-size: cover;
+  position: relative;
+  margin-left:-100px ;  
+  width: 1618px;
+  margin-top: 50px;
+  height: 1000px;
+  border-radius: 5px;
+}
+
+.card {
+  background-color: transparent; /* More transparent white */
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  padding: 20px;
+  color: #000000;
+  max-width: 800px;
+  text-align: left;
+  margin-top: 150px;
+  height: 735px;
+  line-height: 1.6;
+  backdrop-filter: blur(5px); 
+  border: 1px solid rgba(43, 42, 42, 0.2); /* Subtle border for definition */
+}
+
+
+
+.card h1, .card h2 {
+  text-align: center;
+  color: rgb(23, 23, 218);
+  margin-bottom: 20px;
+}
+
+
+.card ul {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.card ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.card ul li:before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: rgb(23, 23, 218);
+}
+
+.dashboard-header {
+  background-color: transparent;
+  color: rgb(227, 227, 233);
+  text-align: center;
+}
+
+.metric-card {
+  color: rgb(250, 250, 250);
+  box-shadow: 1px 2px 2px rgb(224, 215, 215);
+  text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  margin-top: -40px;
+  backdrop-filter: blur(5px); 
+}
+
+.upcoming-events {
+  position: absolute;
+  color: rgb(93, 225, 223);
+  margin-top: -40px;
+  top: 50px;
+  right: 20px;
+  width: 350px;
+  font-style: oblique;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6); 
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.upcoming-events h2 {
+  color: #ffcc00; 
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.event-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Spacing between cards */
+}
+
+.event-card {
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+
+.event-card:hover {
+  transform: scale(1.05); /* Subtle zoom effect */
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover */
+}
+
+.event-icon {
+  font-size: 2em; /* Larger icons */
+  color: #ffcc00; /* Match title color */
+}
+
+.event-card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #ffffff; 
+}
+
+.event-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #cfcfcf; 
+}
+
+
+.announcements {
+  position: absolute;
+  margin-bottom:-1000px;
+  bottom: -150px; /* Positioned near the bottom */
+  width: 1618px;
+  padding: 20px;
+  margin-left: -100px;
+  background: rgba(0, 0, 0, 0.8); /* Dark background with transparency */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  color: #fff; /* White text for contrast */
+  font-family: 'Arial', sans-serif; /* Modern font */
+  text-align: left;
+}
+
+.announcements h2 {
+  color: #ffcc00; /* Golden yellow for the title */
+  text-align: center;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for depth */
+}
+
+.announcements ul {
+  list-style: none;
+  padding: 0;
+}
+
+.announcements ul li {
+  margin-bottom: 10px;
+  padding-left: 30px; /* Indent items */
+  position: relative;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.announcements ul li:before {
+  content: "📢"; /* Announcement icon */
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-bottom: 980px;
+  font-size: 20px; /* Slightly larger icon */
+  color: #ffcc00; /* Match the title color */
+}
+
+
+.dashboard-container {
+  background-image: url("/images/_89fac315-1781-4a76-8b18-b98ddad147aa.jpeg");
+  height: 850px;
+  /* background-color: rgb(96, 96, 237); */
+  background-blend-mode: multiply;
+  width: 100%;
+  padding: 100px;
+  background-position: 100%;
+  background-size: cover;
+  position: relative;
+  top: -20px;
+  margin-top: 0px;
+}
+
+.dashboard-bg {
+  /* background-image: url("../static/Images/dashboardBG.jpeg"); */
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px rgb(255, 206, 11);
+  /* background-color: rgb(0, 4, 244); */
+  /* background-blend-mode: multiply; */
+}
+
+.welcome {
+    margin-top: 450px;
+  font-size: 60px;
+  color: rgb(255, 253, 253);
+  text-shadow: 2px 2px 4px rgb(255, 206, 11);
+}
+

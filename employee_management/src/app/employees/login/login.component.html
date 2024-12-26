@@ -1,0 +1,27 @@
+
+<div class="background-container">
+  <div class="cond" >
+    <h2 class="form_header"><b> Employee Management System </b></h2>
+  </div>
+  <div class="welcome">
+    <h1 class="form__title"><b>Welcome back </b></h1>
+  </div>
+<div class="parent">
+<div class="container">
+    <div class="form" id="login">
+      
+      <div class="form__input-group">
+        <input   type="text"  class="form__input"   [(ngModel)]="loginObj.username" autofocus placeholder="Username" id="usernameinput">
+  
+      </div>
+      <br>
+      <div class="form__input-group">
+        <input style="margin-left: 200px;  border:none; height:40px;
+    border-radius: 7px; " type="password" class="form__input" [(ngModel)]="loginObj.password" autofocus placeholder="Password" id="passwordInput">
+       
+        <button type="button" class="form__button" (click)="onLogin()" id="loginButton">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
